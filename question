@@ -1,0 +1,24 @@
+1. What is HTML?
+HTML stands for Hypertext Markup Language, the language of the Internet. It is the standard text formatting language used for creating and displaying pages on the Internet.
+
+2. What are HTML tags?
+We use HTML tags to place the elements in the proper and appropriate format. Tags use the symbols < and > to set them apart from the HTML content.
+
+3. What are HTML Attributes?
+Attributes are the properties that can be added to an HTML tag. These attributes change the way the tag behaves or is displayed. For example, a <img> tag has an src attribute, which you use to add the source from which the image should be displayed.
+
+We add attributes right after the name of the HTML tag inside the brackets. We can only add the attributes to opening or self-closing tags but never to closing tags.
+
+5. How do you separate a section of text in HTML?
+We separate a section of text in HTML using the below tags:
+<br> tag – It separates the line of text. It breaks the current line and shifts the flow of the text to a new line.
+<p> tag–This tag is used to write a paragraph of text.
+
+6. Define the list types in HTML.
+The list types in HTML are as follows:
+
+Ordered list–The ordered list uses <ol> tag and displays elements in a numbered format.
+Unordered list–The unordered list uses <ul> tag and displays elements in a bulleted format.
+Definition list–The definition list uses <dl>, <dt>, <dd> tags and displays
+ elements in definition form like in a dictionary.
+

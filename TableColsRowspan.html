@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <!-- 
+        tr = table row
+        td = table data => column [normal]
+        th = table heading [bold , align=center]
+        cellspacing = table ni bar ni jagya bane box vache hoi ae.
+        cellpadding = box ni size vadharva table ni andar.
+     -->
+    <table border="5" bgcolor="pink" bordercolor="black" cellspacing="10" 
+        cellpadding="7" width="30%" height="50%" align="left">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>princy</td>
+                <td>bca</td>
+            </tr>
+            <tr>
+                <!-- <td>2</td> -->
+                <td colspan="2">bhumi</td>
+                <!-- <td>bscit</td> -->
+            </tr>
+            <tr>
+                <!-- <td>3</td> -->
+                <td>vidhi</td>
+                <td>bba</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
